@@ -257,7 +257,6 @@ header .nav-link{
 }
 .main-logo {
     max-width:250px;
-    margin-left:13px;
 }
 
 /*****************NAVBAR HOVER EFFECT***************/
@@ -288,12 +287,13 @@ a.before:before,a.after:after{
     color: #33c9dd !important;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: #000000 !important;
+    color: #a54c00 !important;
     text-decoration: none;
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
     padding: 0 !important;
     letter-spacing: 0;
+    font-weight: bold;
 }
 
 /*************MODEL WINDOW FOR NAVBAR FOR SMALL SCREEN***********/
