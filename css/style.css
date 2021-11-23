@@ -2897,6 +2897,6 @@ transform:translateX(-50%) translatey(0px); -webkit-transform:translateX(-50%) t
 top:25px; left:50%; right:auto; -ms-transform:translateX(-50%) translateY(10px); transform:translateX(-50%) translateY(10px);-webkit-transform:translateX(-50%) translateY(10px)}
 .ares.nav-dir-horizontal.nav-pos-ver-top .tp-bullet-title:after{border-width:0 10px 10px 10px; border-color:transparent transparent rgba(255,255,255,0.75) transparent;
 right:auto; left:50%; margin-left:-10px; bottom:auto; top:-10px}.ares.nav-dir-horizontal.nav-pos-ver-top .tp-bullet.selected:hover .tp-bullet-title:after{
-border-color:transparent transparent rgba(255,255,255,1) transparent}.ares.nav-dir-horizontal.nav-pos-ver-top .tp-bullet:hover .tp-bullet-title{
-                                                                                                                                                 -ms-transform:translateX(-50%) translatey(0px);
-                                                                                                                                                 transform:translateX(-50%) translatey(0px); -webkit-transform:translateX(-50%) translatey(0px)}
+border-color:transparent transparent rgba(255,255,255,1) transparent}.ares.nav-dir-horizontal.nav-pos-ver-top .tp-bullet:hover .tp-bullet-title{-ms-transform:translateX(-50%) translatey(0px);transform:translateX(-50%) translatey(0px); -webkit-transform:translateX(-50%) translatey(0px)}
+.tp-caption-small {z-index: 6; white-space: nowrap; font-size: 24px; line-height: 34px; font-weight: 300; color: #ffffff; letter-spacing: 0;font-family:'Open Sans', sans-serif;text-shadow: rgb(0 0 0 / 79%) 1px 1px 6px;}
+.tp-caption-big {z-index: 7; white-space: nowrap; font-size: 72px; line-height: 85px; font-weight: 100; color: #ffffff; letter-spacing: 0;font-family:'Raleway', sans-serif;text-shadow: rgb(0 0 0 / 79%) 1px 1px 6px;}
