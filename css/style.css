@@ -22,7 +22,7 @@
     - About Yoga
     - Types of Yoga
     - Gallery
-    - Training Vedio
+    - Training video
     - Clients
     - Blog
     - Contact
@@ -257,6 +257,7 @@ header .nav-link{
 }
 .main-logo {
     max-width:250px;
+    margin-left: 25px;
 }
 
 /*****************NAVBAR HOVER EFFECT***************/
@@ -457,7 +458,7 @@ a.before:before,a.after:after{
     padding: 0;
 }
 .cover:hover{
-    border-radius: 15px;
+    /* border-radius: 15px; */
     -webkit-box-shadow: 2px 2px 15px #e1e1e1;
     box-shadow: 2px 2px 15px #e1e1e1;
 }
@@ -477,21 +478,28 @@ a.before:before,a.after:after{
     -webkit-transition: 0.4s ease;
     -o-transition: 0.4s ease;
     transition: 0.4s ease;
+    -webkit-box-shadow: 0px 0px 3px #e1e1e1;
+    box-shadow: 0px 0px 3px #e1e1e1;
+}
+.cover .card-text {
+    color: #262626;
 }
 .cover .card-title{
-    margin-top: 45px;
-    margin-bottom: 40px;
-    font-size: 30px;
+    margin: 20px 0 25px 0;
+    font-size: 15px;
     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
     color: rgb(33, 35, 49);
     -webkit-transition: 0.9s ease;
     -o-transition: 0.9s ease;
     transition: 0.9s ease;
 }
 .cover .numbering{
-    font-size: 45px;
+    font-size: 25px;
     font-family:'Open Sans', sans-serif;
-    line-height: 0.867;
+    line-height: 1.1;
+    font-weight: bold;
     background: -webkit-linear-gradient( 180deg,#cf43ca 85%, #8579e0 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -734,7 +742,7 @@ figure.snip0015:hover figcaption::before {
     transition-delay: 0s;
 }
 .caption_center{
-    margin-top: 150px;
+    /* margin-top: 150px; */
 }
 
 /********************COUNTER SECTION*****************/
@@ -742,7 +750,8 @@ figure.snip0015:hover figcaption::before {
     margin-top: 125px;
     overflow: hidden !important;
 }
-.counter-heading{
+.counter-heading,
+.testimonials-heading{
     margin-left: auto;
     text-align: center;
     margin-right: auto;
@@ -811,21 +820,21 @@ figure.snip0015:hover figcaption::before {
     height: 1500px;
 }
 
-/*********************VEDIO MODEL WINDOW***************/
-#training_vedio{
+/*********************video MODEL WINDOW***************/
+#training_video{
     margin-top: 125px;
     background: #f6f6f6;
     overflow: hidden !important;
 }
-.vedio-heading{
+.video-heading{
     text-align: left;
     margin-top: 17.5%;
     margin-bottom: 17.5%;
 }
-.vedio_img{
+.video_img{
     margin-top: 40px;
 }
-.vedio_text{
+.video_text{
     font-size: 36px;
     font-family: 'Raleway', sans-serif;
     background: -webkit-linear-gradient( 0deg, #8579e0 10%, #cf43ca 70%);
@@ -861,18 +870,25 @@ figure.snip0015:hover figcaption::before {
     margin-top: 125px;
     margin-bottom: 75px;
     overflow: hidden !important;
+    background: #f6f6f6;
+    padding:10% 0;
 }
 .testimonial-box{
-    background: #f6f6f6;
+    background: #dddddd;
     /*overflow: hidden;*/
     padding: 65px 45px 45px 45px;
     margin: 50px 10px 10px 10px;
-    -webkit-transition: 1s ease;
-    -o-transition: 1s ease;
-    transition: 1s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
     cursor: pointer;
     border-radius: 10px;
     position: relative;
+}
+.testimonial-box * {
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 .owl-testimonial .owl-item:not(.center) .testimonial-box:hover{
     background-color: #33c9dd;
@@ -889,26 +905,10 @@ figure.snip0015:hover figcaption::before {
 .owl-testimonial .center .quote_box{
     background-image: -webkit-linear-gradient( 180deg, #cf43ca 20%, #8579e0 100%);
 }
-.center .testimonial-box:before{
-    content: "";
-    position: absolute;
-    width: 94%;
-    height: 61.5%;
-    top: 52px;
-    left: 10px;
-    background-image: -webkit-linear-gradient( 180deg, #cf43ca 20%, #8579e0 100%);
-    color: #ffffff;
-    opacity: 0;
-    -webkit-transition: opacity .5s ease-in-out;
-    -o-transition: opacity .5s ease-in-out;
-    transition: opacity .5s ease-in-out;
-    border-radius: 10px;
-    z-index: 0;
+.center .testimonial-box:hover{
+    background-image: -webkit-linear-gradient( 
+180deg, #cf43ca 20%, #8579e0 100%);
 }
-.center .testimonial-box:hover:before{
-    opacity: 1 !important;
-}
-
 .owl-testimonial .center .testimonial-box:hover .quote{
     background: -webkit-linear-gradient( 180deg,#cf43ca 60%, #8579e0 40%) !important;
     -webkit-background-clip: text !important;
@@ -2525,7 +2525,7 @@ span{
         margin-left: auto;
         margin-right: auto;
     }
-    #training_vedio {
+    #training_video {
         margin-top: 80px;
     }
     .main_heading {
@@ -2586,7 +2586,7 @@ span{
         height: 67%;
         bottom: 3%;
     }
-    .vedio-heading {
+    .video-heading {
         text-align: center;
     }
     .padding_blog {
@@ -2607,7 +2607,7 @@ span{
     .quote_box {
         left: 42%;
     }
-    .vedio_text {
+    .video_text {
         margin-top: 36px;
         font-size: 30px;
     }
