@@ -257,7 +257,6 @@ header .nav-link{
 }
 .main-logo {
     max-width:250px;
-    margin-left: 25px;
 }
 
 /*****************NAVBAR HOVER EFFECT***************/
@@ -974,7 +973,7 @@ figure.snip0015:hover figcaption::before {
 #testimonials .text{
     position: absolute;
     text-align: center;
-    bottom: -115px;
+    bottom: -130px;
     left: 0;
     right: 0;
 }
@@ -2364,6 +2363,8 @@ span{
         height: auto;
         margin-left: 70%;
         padding-top: 30px;
+        position: absolute;
+        right: 0;
     }
     .small-screen{
         display: block !important;
