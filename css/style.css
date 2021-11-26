@@ -1982,8 +1982,9 @@ span{
 
 /*******************DETAIL BLOG****************/
 .header6_img{
-    background: url(../img/blog/header6_img.png);
-    background-attachment: fixed;
+    background: url(../img/fav.png) no-repeat;
+    /* background-attachment: fixed; */
+    background-position: bottom right;
 }
 .minimal_image .min-post .large_post div {
     background: black;
