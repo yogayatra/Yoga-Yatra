@@ -1600,6 +1600,12 @@ li.footer_list:hover{
     font-weight: bold;
 }
 
+.topic_outerbox a.btn-large {
+    margin-left:auto;
+    margin-right:auto;
+    display: table;
+}
+
 .topic_outerbox ul{
     list-style: none;
     padding: 0;
@@ -2064,9 +2070,9 @@ span{
     height: 20%;
     border-radius: 50%;
     border: 1px solid transparent;
-    margin-left: 60px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    /* margin-left: 60px; */
+    /* margin-top: 40px; */
+    /* margin-bottom: 40px; */
 }
 .written_text {
     margin-top: auto;
