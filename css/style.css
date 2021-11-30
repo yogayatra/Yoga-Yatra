@@ -1584,10 +1584,20 @@ li.footer_list:hover{
 .topic_outerbox h2 {
     color:#333333;
     font-size: 26px;
-    padding-left: 42px;
-    padding-top: 30px;
+    /* padding-left: 42px; */
+    padding-top: 15px;
     padding-bottom: 10px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.topic_outerbox h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.topic_outerbox h4 {
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .topic_outerbox ul{
